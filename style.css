@@ -4,16 +4,23 @@ html {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: blue;
+    background-color: #3d3f4e;
     color: white;
     text-align: center;
     overflow: hidden;
 }
 
 h1 {
-    text-shadow: 0.1em 0.1em 0.2em black;
-    font-size: 25px;
-    color: red;
+    text-shadow: 0.0em 0.0em 0.0em black;
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-size: 45px;
+    color: green;
+  
 }
 
 a {
