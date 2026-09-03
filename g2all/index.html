@@ -13,12 +13,12 @@ var fwVersion = isPS4 ? match[1] : "Unknown";
 var fwNum = parseFloat(fwVersion);
 
 function onScriptError() {
-    msgs.innerHTML = "Content not Found! - Clear Browser Data and Re-Install Cache ...";
+    msgs.innerHTML = "Konten Tidak Ditemukan! - Hapus Data Browser dan Muat Ulang Cache ...";
 }
 
 if (!isPS4) {
     document.addEventListener("DOMContentLoaded", () => {
-        msgs.innerHTML = "Hanya Untuk PS4 Firmware 7.00 to 13.00";
+        msgs.innerHTML = "Hanya Untuk PS4 Firmware 7.00 sampai 13.00";
     });
 } else {
     if (window.applicationCache.status == '0') {
@@ -82,8 +82,8 @@ if (!isPS4) {
 <h3>7.00 - 13.00 Webkit by MGstore</h3>
 <hr>
 <br>
-<h2 id=msgs style="font-size: 35px;margin-top: 80px;margin-bottom: 455px;">Loading GoldHEN v2.4b18.10... Please Wait</h2>
-<h1 style="margin-top: 44px;">Special Thanks to:<a href="https://twitter.com/_AlAzif" style="color: gold;margin-left: 10px;margin-right: 10px;">@_AlAzif</a>ChendoChap<a href="https://x.com/Kameleonre_" style="color: gold;margin-left: 10px;margin-right: 10px;">@Kameleonre_</a>SiSTR0 Abc</h1>
+<h2 id=msgs style="font-size: 35px;margin-top: 80px;margin-bottom: 455px;">Memuat GoldHEN v2.4b18.10... Mohon Tunggu</h2>
+<h1 style="margin-top: 44px;">Special Thanks to:<a href="https://twitter.com/_AlAzif" style="color: red;margin-left: 10px;margin-right: 10px;">@_AlAzif</a>ChendoChap<a href="https://x.com/Kameleonre_" style="color: red;margin-left: 10px;margin-right: 10px;">@Kameleonre_</a>SiSTR0 Abc</h1>
 <hr>
 <br>
 </body>
