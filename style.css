@@ -18,8 +18,15 @@ h1 {
 
 h2 {
     text-shadow: 0.1em 0.1em 0.1em black;
-    font-size: 45px;
+    font-size: 40px;
     color: red;
+
+}
+
+h3 {
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-size: 45px;
+    color: white;
   
 }
 
