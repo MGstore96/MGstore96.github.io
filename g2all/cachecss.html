@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="css.manifest">
+< manifest="css.manifest">
 <head>
 <title>7.00 - 13.00 Webkit by MGstore</title>
 <link rel="stylesheet" href="../style.css">
@@ -7,16 +7,20 @@
 <body>
 <script>
 history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
-function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
-function DisplayCacheProgress(){window.msgs.innerHTML="Cache Installed Successfully ✔";setTimeout(function(){window.msgs.innerHTML="Now Close And Re-Open Your Browser ...";},1500);}
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Menginstal Cache Offline: " + Percent + "%";}
+function DisplayCacheProgress(){window.msgs.innerHTML="Cache Berhasil Diinstal ✔";setTimeout(function(){window.msgs.innerHTML="Sekarang, tutup dan buka kembali browser Anda ...";},1500);}
 window.applicationCache.addEventListener("progress",DLProgress,false);
 window.applicationCache.oncached=function(e){DisplayCacheProgress();};
 window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
-window.applicationCache.onerror=function(e){window.msgs.innerHTML="Error Installing Cache! - Clear and Re-Open Your Browser ...";};
+window.applicationCache.onerror=function(e){window.msgs.innerHTML="Kesalahan Saat Menginstal Cache! - Bersihkan dan Buka Kembali Browser Anda ...";};
 </script>
-<h1>7.00 - 13.00 Webkit by MGstore</h1>
+<hr>
+<h3>7.00 - 13.00 Webkit by MGStore</h3>
+<hr>
 <br>
-<h1 id=msgs style="font-size: 30px;margin-top: 77px;margin-bottom: 455px;">Starting Cache Installation...</h1>
-<h1 style="margin-top: 40px;">Special Thanks to:<a href="https://twitter.com/_AlAzif" style="color: #f31414;margin-left: 10px;margin-right: 10px;">@_AlAzif</a>ChendoChap<a href="https://x.com/Kameleonre_" style="color: #f31414;margin-left: 10px;margin-right: 10px;">@Kameleonre_</a>SiSTR0 Abc</h1>
+<h2 id=msgs style="font-size: 30px;margin-top: 77px;margin-bottom: 455px;">Memulai Instalasi Cache...</h2>
+<h1 style="margin-top: 44px;">Special Thanks to:<a href="https://twitter.com/_AlAzif" style="color: red;margin-left: 10px;margin-right: 10px;">@_AlAzif</a>ChendoChap<a href="https://x.com/Kameleonre_" style="color: red;margin-left: 10px;margin-right: 10px;">@Kameleonre_</a>SiSTR0 Abc</h1>
+<hr>
+<br>
 </body>
 </html>
