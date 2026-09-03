@@ -17,9 +17,9 @@ h1 {
 }
 
 h2 {
-    text-shadow: 0.1em 0.1em 0.1em black;
+    text-shadow: 0.1em 0.0em 0.5em black;
     font-size: 40px;
-    color: red;
+    color: whitesmoke;
 
 }
 
