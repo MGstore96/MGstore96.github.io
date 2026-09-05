@@ -53,7 +53,7 @@ async function doJb() {
     }
 
     if (fn.setuid.invoke(0) !== -1) {
-      msgs.innerHTML = "GoldHEN sudah dimuat ...";
+      msgs.innerHTML = "GoldHEN sudah Dimuat ...";
       return;
     }
 
