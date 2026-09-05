@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-< manifest="css.manifest">
+<html manifest="css.manifest">
 <head>
 <title>7.00 - 13.00 Webkit by MGstore</title>
 <link rel="stylesheet" href="../style.css">
@@ -8,16 +8,16 @@
 <script>
 history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Menginstal Cache Offline: " + Percent + "%";}
-function DisplayCacheProgress(){window.msgs.innerHTML="Cache Berhasil Diinstal ✔";setTimeout(function(){window.msgs.innerHTML="Sekarang, tutup dan buka kembali browser Anda ...";},1500);}
+function DisplayCacheProgress(){window.msgs.innerHTML="Cache Berhasil Diinstal ✔";setTimeout(function(){window.msgs.innerHTML="Sekarang, tutup dan buka kembali browser Anda. ...";},1500);}
 window.applicationCache.addEventListener("progress",DLProgress,false);
 window.applicationCache.oncached=function(e){DisplayCacheProgress();};
 window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 window.applicationCache.onerror=function(e){window.msgs.innerHTML="Kesalahan Saat Menginstal Cache! - Bersihkan dan Buka Kembali Browser Anda ...";};
 </script>
-<hr>
+ <hr> 
 <h3>7.00 - 13.00 Webkit by MGStore</h3>
 <hr>
-<h2 id=msgs style="font-size: 30px;margin-top: 77px;margin-bottom: 455px;">Memulai Instalasi Cache...</h2>
+<h2 id=msgs style="font-size: 30px;margin-top: 77px;margin-bottom: 455px;">Starting Cache Installation...</h2>
 <h1 style="margin-top: 43px;">Special Thanks to:<a style="color: #f31414;margin-left: 10px;margin-right: 10px;">GamerHack93</a abc</a> sleirsgoevy</a> TheFlow</a> Flatz</a> Egycnq</a> Jordy</a> Sonic-Iso</a> Feyzee61<a style="color: #f31414;margin-left: 10px;margin-right: 10px;">AlAzif</a> ChendoChap<a style="color: #f31414;margin-left: 10px;margin-right: 10px;">Kameleonre_</a> SiSTR0 Abc</h1>
 <hr>
 </body>
